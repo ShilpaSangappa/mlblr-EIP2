@@ -2,6 +2,15 @@
 
 Images are resized to 28x28 and is trained initially. After  3 epochs, the image size is 32x32 and trained again.
 
+### Final Validation: 
+
+https://colab.research.google.com/drive/10Ui4Ug7OdWOT09TAhRbYU5Bp-GVoePSS
+
+Training Accuracy achieved: 97.2% (0.9721)
+
+Test Accuracy achieved: 91.7% (0.9171)
+
+
 ### Trainable parameters in the network: 
 
 ```Total params: 902,050
@@ -28,13 +37,7 @@ compression = 0.75
 
 dropout_rate = 0.2
 
-### Final Validation: 
 
-https://colab.research.google.com/drive/10Ui4Ug7OdWOT09TAhRbYU5Bp-GVoePSS
-
-Training Accuracy achieved: 97.2% (0.9721)
-
-Test Accuracy achieved: 91.7% (0.9171)
 
 ### Github Link:
 
