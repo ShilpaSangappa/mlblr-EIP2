@@ -1,6 +1,6 @@
 # DenseNet Training
 
-The image is resized to 28x28 and is trained initially. After  3 epochs, the image is resized to 32x32 and trained again.
+Images are resized to 28x28 and is trained initially. After  3 epochs, the image size is 32x32 and trained again.
 
 ### Trainable parameters in the network: 
 
@@ -29,7 +29,11 @@ https://colab.research.google.com/drive/10Ui4Ug7OdWOT09TAhRbYU5Bp-GVoePSS
 
 
 
-Training has been conducted in different stages, with changes and tweaks. Following is the order of training with details of changes performed  and accuracy achieved at each stage.
+### Github Link:
+
+https://github.com/ShilpaSangappa/mlblr-EIP2/tree/master/session04
+
+Training has been conducted in different stages, with changes and tweaks. Following is the order of training with details of changes performed  and accuracy achieved at each stage. Weights are saved at each training level and reloaded in the subsequent training level. For e.g., weights saved in training 1 is reloaded in training 2 and the training is continued from those pre-loaded weights.
 
 ### Training 1:
 
