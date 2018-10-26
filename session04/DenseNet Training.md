@@ -17,17 +17,24 @@ Non-trainable params: 14,550
 These are the hyperparameters unchanged throughout for all epochs:
 
 batch_size = 128
+
 num_classes = 10
+
 l = 14
+
 num_filter = 20
+
 compression = 0.75
+
 dropout_rate = 0.2
 
 ### Final Validation: 
 
 https://colab.research.google.com/drive/10Ui4Ug7OdWOT09TAhRbYU5Bp-GVoePSS
 
+Training Accuracy achieved: 97.2% (0.9721)
 
+Test Accuracy achieved: 91.7% (0.9171)
 
 ### Github Link:
 
